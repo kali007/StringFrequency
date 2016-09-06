@@ -26,8 +26,6 @@ def tj(path,list):
     d=sorted(e.iteritems(), key=itemgetter(1), reverse=True)
     for i in range(0,len(d)):
         list.append(d[i])
- #   for c in d:
- #       print c
         
 def main() :
     dest = sys.argv[1]
