@@ -1,6 +1,7 @@
 #coding=utf-8
 
 
+#last  实现将该目录下的所有txt文件内数据的重复次数
 import os
 import sys
 from os.path import join
